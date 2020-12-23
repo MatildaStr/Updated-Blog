@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px;
+}
+
+h1{
+    padding-bottom: 30px;
+}
+
+.fatBoyContainer {
+    width: 70%;
+}
+
+#bp-container{
+    width: 700px;
+}
+
+#create-bp-btn{
+    margin-top: 20px;
+    float: right;
+}
+
+#title, #author, #tags, #content-textarea{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.blog-link-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#postTableAdmin {
+width: 100%;
+
+}
+
+span{
+    color: #df691a8a;
+}
+
+th:nth-child(1) { 
+    width: 20%; 
+}
+  
+th:nth-child(2) { 
+    width: 20%; 
+} 
+
+th:nth-child(3) { 
+    width: 20%; 
+} 
+
+th:nth-child(4) { 
+    width: 20%; 
+} 
+
+th:nth-child(5) { 
+    width: 200px; 
+} 
+
+table, th, td {
+    border: 1px solid rgb(112, 112, 112);
+    padding: 10px ;
+    
+}
+
+#update-post-link {
+    margin-right: 5px;
+}
+
+.border {
+    border: 1px solid rgb(255, 0, 0);
+    margin-bottom: 20px;
+}
+
+.btn-outline-primary{
+    margin-bottom: 30px;
+}
+
+th{
+    font-weight: 200;
+}
+
+#tableSubjects{
+    color:#df691a;
+    font-weight: 500;
+}

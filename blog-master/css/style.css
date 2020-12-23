@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.tags{
+    color: coral;
+    text-transform: capitalize;
+}
+
+#admin-link-container{
+    display: flex;
+    margin-left: 10px;
+}
+
+.fa-edit{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.fa-edit:hover {
+    color: rgb(209, 101, 62);
+}
+
+#search-container{
+    position: sticky; 
+    position: -webkit-sticky;
+    top: 0;
+}
+
+/* div#search-container input {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 90%;
+    background-color: white;
+} */
+
+div#search-container select {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 90%;
+    background-color: white;
+}
+
+div#search-container button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background-color: coral;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-left: none; 
+    cursor: pointer;
+}
+  
+div#search-container button:hover {
+    background-color: rgb(209, 101, 62);
+}
+
+#hero-section{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    background-image: url('../img/gruppbild.jpg');
+    background-size: cover;
+    background-position-y: -93px;
+}
+
+.content-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 100px 0px 100px 0px;
+    height: 100%;
+}
+
+.heading{
+    font-family: 'DM Serif Display', arial;
+    font-size: 40px;
+    text-align: center;
+}
+
+.date{
+    margin-top: 20px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.content-text{
+    font-size: 23px;
+    line-height: 35px;
+    text-align: center;
+    padding: 0px 220px 0px 220px;
+}
+
+.author{
+    text-align: center;
+    margin-top: 55px;
+}
+
+.spacing{
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+
+}
+
+.gb-home{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px; 
+    width: 215px;
+    border: 1px solid black;
+    padding: 5px; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.read-more-link{
+    color: gray;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-style: italic;
+}

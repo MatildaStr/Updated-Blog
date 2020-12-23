@@ -1,0 +1,30 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Update Blog Post</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/> 
+    </head>
+    <body>
+        <div id="bp-container">
+            <a href="index.html"><button id="btb-btn"type="button" class="btn btn-outline-primary">Take me to back to Admin</button></a>
+            <div class="border"></div>
+            <h1>Update blog post</h1>
+            <form id="update-post-form">
+                <input type="text" id="title"><br>
+                <input type="text" id="author"><br>
+                <input type="text" id="tags"><br>
+                <textarea name="content" id="content-textarea" cols="30" rows="10" placeholder="Content"></textarea>
+                <br><button id="create-bp-btn"type="submit" class="btn btn-outline-primary">Update</button>
+            </form>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/update-post.js"></script>
+    </body>
+</html> 
